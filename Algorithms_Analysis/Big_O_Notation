@@ -1,0 +1,29 @@
+Notation : a series or system of written symbols used to represent numbers, amounts, or elements in something such as music or mathematics 
+"algebraic notation"
+
+Big O Notation : we use it to growth rate of a function, The Order of a function
+
+f(n)= n^2 + 3n + 1 
+f(n) asymptotically equivalent to n^2 as n--> infinite
+O(n^2)
+
+
+Complexity Classes
+
+| Notation  | Pronuciation   | Name in Math |    Rate    |
+|-----------|----------------|--------------|------------|
+|   O(1)    |   Oh one       |   Constant   |  Excellent |
+|-----------|----------------|--------------|------------|
+| O(log n)  |   Oh n         |  Logarithmic |   Good     |
+|-----------|----------------|--------------|------------|
+|  O(n)     |   Oh n         |  Linear      |   Fair     | 
+|-----------|----------------|--------------|------------|
+| O(nlog n) | Oh n log n     |              |            |
+|-----------|----------------|--------------|------------|
+| O(n^2)    | Oh n square    |  Quadratic   |   Worst    |
+|-----------|----------------|--------------|------------|
+| O(2^n)    | Oh two power n | Exponential  |   Worst    |
+|-----------|----------------|--------------|------------|
+| O(n!)     | Oh n factorial |              |  Horrible  |
+|-----------|----------------|--------------|------------|
+
